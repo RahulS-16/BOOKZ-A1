@@ -604,6 +604,14 @@ footer a:hover {
     nav {
         position: relative;
     }
+    .navbar__menu__item a:hover {
+        background-color: black;
+        color: orange;
+    }
+    .navbar__menu__item a:active{
+        background-color: antiquewhite;
+        color: white;
+    }
 
     .container {
         width: 95vw;
