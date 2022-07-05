@@ -184,13 +184,13 @@ nav {
 
 .card:hover .know-more {
     display: inline-block;
-    width: 10rem;
+    width: 12rem;
     color: black;
     font-size: 1.8rem;
     background-color: orange;
     position: absolute;
     top: 110px;
-    left: calc(50%-5rem);
+    left: calc(50% - 6rem);
     padding: 1rem;
     margin-top: 0;
     border-radius: 8px;
