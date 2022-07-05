@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -72,7 +71,7 @@ nav {
 
 .navbar__menu__item a:hover {
     background-color: antiquewhite;
-    color:black;
+    color: black;
 }
 
 .navbar__menu__item a:active {
@@ -173,48 +172,55 @@ nav {
     transition: all .3s;
     position: relative;
 }
-.know-more{
-    display: none;   
+
+.know-more {
+    display: none;
 }
 
 .card:hover {
     transform: translateY(-.8rem) scale(1.04);
     box-shadow: 0 1rem 1.4rem black;
 }
-.card:hover .know-more{
-    display:inline-block;
+
+.card:hover .know-more {
+    display: inline-block;
     width: 10rem;
     color: black;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     background-color: orange;
     position: absolute;
-    top: 25%;
-    left: calc(50% - 5rem);
-    padding: .8rem;
+    top: 110px;
+    left: calc(50%-5rem);
+    padding: 1rem;
     margin-top: 0;
-    border-radius:8px ;
-    animation-name:scale-up;
+    border-radius: 8px;
+    animation-name: scale-up;
     animation-duration: .3s;
     transition: all .3s;
 }
-.card:hover .know-more:hover{
+
+.card:hover .know-more:hover {
     transform: scale(1.1);
 }
-.card:hover .know-more:active{
-    color: white; 
+
+.card:hover .know-more:active {
+    color: white;
 }
-@keyframes scale-up{
-    0%{
+
+@keyframes scale-up {
+    0% {
         transform: scale(0);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
 
-.card:hover .book__img{
+.card:hover .book__img {
     opacity: .2;
 }
+
 .book__img {
     display: block;
     margin: 0 auto;
@@ -248,7 +254,7 @@ nav {
     cursor: pointer;
 }
 
-.add-button::after{
+.add-button::after {
     content: "Added";
     width: 100%;
     padding: 3px;
@@ -259,13 +265,14 @@ nav {
     background-color: green;
     display: none;
 }
-.add-button:focus::after{
+
+.add-button:focus::after {
     display: block;
 }
 
 
 .book__title {
-   display: inline-block;
+    display: inline-block;
     text-transform: uppercase;
     padding: 0 3.6rem 0 3.7rem;
     margin-top: .3rem;
@@ -331,7 +338,7 @@ nav {
 
 .review_and_form {
     display: grid;
-    grid-template-columns:3fr 2fr;
+    grid-template-columns: 3fr 2fr;
     grid-column-gap: 3rem;
     padding-bottom: 13rem;
 }
@@ -342,45 +349,49 @@ nav {
     grid-column-gap: 1rem;
 }
 
-.review-cards{
+.review-cards {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1rem;
 }
+
 .review-cards img {
     height: 20rem;
     width: 18rem;
 }
 
-.name_and_review{
+.name_and_review {
     text-align: left;
     padding-top: 1rem;
 }
 
-.name_and_review span{
+.name_and_review span {
     font-size: 4rem;
 }
-.name_and_review p{
+
+.name_and_review p {
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
-.review-form{
+.review-form {
     border: 2px solid black;
     border-radius: 10px;
     padding-bottom: 2rem;
 }
-.review-form-title{
+
+.review-form-title {
     text-decoration: underline;
     margin-top: 1rem;
     font-size: 3rem;
 }
 
-form{
+form {
     font-size: 1.7rem;
 
 }
-.inputs{
+
+.inputs {
     width: 60%;
     display: inline-block;
     margin: 1.5rem;
@@ -392,12 +403,14 @@ form{
     outline-offset: .3rem;
     transition: all .2s;
 }
-.inputs:hover{
+
+.inputs:hover {
     transform: scale(1.07);
-    outline-offset:0 ;
+    outline-offset: 0;
 }
-form textarea{
-    width:85% ;
+
+form textarea {
+    width: 85%;
     outline: 2px solid black;
     outline-offset: 2px;
     background-color: antiquewhite;
@@ -410,12 +423,12 @@ form textarea{
     transition: all .2s;
 }
 
-form textarea:hover{
+form textarea:hover {
     transform: scale(1.05);
-    outline-offset:0 ;
+    outline-offset: 0;
 }
 
-.submit-btn{
+.submit-btn {
     margin-top: 1.5rem;
     width: 30%;
     font-size: 1.7rem;
@@ -425,198 +438,229 @@ form textarea:hover{
     transition: all .2s;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background-color: orange;
 }
 
-.submit-btn:active{
+.submit-btn:active {
     color: white;
 }
 
-footer{
+footer {
     text-align: center;
     color: orange;
     background-color: rgb(0, 0, 0);
     padding-bottom: 3rem;
 }
-footer a{
+
+footer a {
     color: orange;
     transition: al .2s;
 }
-footer a:hover{
+
+footer a:hover {
     color: white;
 }
-.contact-details{
+
+.contact-details {
     padding-top: 2rem;
     font-size: 1.7rem;
     border-bottom: 2px solid orange;
 }
-.contact-details p{
+
+.contact-details p {
     padding: .8rem 0;
 }
-.contact-details a{
+
+.contact-details a {
     display: inline-block;
     font-size: 3rem;
 }
-.contact-details a:nth-of-type(2){
+
+.contact-details a:nth-of-type(2) {
     margin: 2rem 3rem;
 }
-.extra-info{
+
+.extra-info {
     padding-top: 1rem;
     font-size: 1.7rem;
     margin-bottom: 2rem;
 }
-.extra-info a{
+
+.extra-info a {
     margin-right: 4rem;
 }
-.back-to-top{
+
+.back-to-top {
     color: orange;
     font-size: 1.5rem;
 }
 
-@media(max-width:1200px){
-    .intro{
-        height:fit-content;
+@media(max-width:1200px) {
+    .intro {
+        height: fit-content;
     }
+
     .intro__container {
         text-align: center;
         display: flex;
         flex-direction: column;
     }
+
     .intro__container__right {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .intro__container__left {
-        display:block;
+        display: block;
         padding: 3rem;
     }
+
     .intro__cover-image {
-       width: 90%;
-       padding: 4rem;
+        width: 90%;
+        padding: 4rem;
 
     }
-    .grid-1-of-4{
-        grid-template-columns: repeat(3,1fr);
+
+    .grid-1-of-4 {
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .bestseller .card:nth-of-type(4){
-       position: relative;
-       left:calc(100% + 8rem);
+    .bestseller .card:nth-of-type(4) {
+        position: relative;
+        left: calc(100% + 8rem);
     }
-    .recommendation .card:nth-of-type(7){
+
+    .recommendation .card:nth-of-type(7) {
         position: relative;
         left: calc((100% + 8rem)/2);
 
 
     }
-    .recommendation .card:nth-of-type(8){
+
+    .recommendation .card:nth-of-type(8) {
         position: relative;
         left: calc((100% + 8rem)/2);
     }
 }
 
-@media (max-width:950px){
-    .container{
+@media (max-width:950px) {
+    .container {
         width: 90vw;
     }
-    .grid-1-of-4{
-        grid-template-columns: repeat(2,1fr);
+
+    .grid-1-of-4 {
+        grid-template-columns: repeat(2, 1fr);
     }
-     .card{
+
+    .card {
         margin: auto;
         max-width: 250px;
     }
+
     .review_and_form {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         grid-row-gap: 3rem;
         padding-bottom: 13rem;
     }
-    .bestseller .card:nth-of-type(4){
+
+    .bestseller .card:nth-of-type(4) {
         position: relative;
-        left:0;
-     }
-     .recommendation .card:nth-of-type(7){
+        left: 0;
+    }
+
+    .recommendation .card:nth-of-type(7) {
         position: relative;
-        left:0;
-     }
-     .recommendation .card:nth-of-type(8){
+        left: 0;
+    }
+
+    .recommendation .card:nth-of-type(8) {
         position: relative;
-        left:0;
-     }
+        left: 0;
+    }
 }
 
-@media (max-width:750px){
+@media (max-width:750px) {
     .navbar__grid-container {
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
     }
-    .logo-main{
+
+    .logo-main {
         padding: .8rem 0;
         margin: auto;
     }
-    .searchbar{
+
+    .searchbar {
         max-width: 35rem;
     }
 }
 
-@media (max-width:600px){
-    nav{
+@media (max-width:600px) {
+    nav {
         position: relative;
     }
-    .container{
+
+    .container {
         width: 95vw;
     }
+
     .navbar__menu {
         margin: auto 0;
         display: block;
     }
-    .grid-1-of-4{
+
+    .grid-1-of-4 {
         grid-template-columns: 1fr;
     }
-    
-    .card{
+
+    .card {
         margin: auto;
         max-width: 230px;
     }
-    .extra-info span{
+
+    .extra-info span {
         margin-top: 1.5rem;
         display: block;
     }
 }
-@media (max-width:400px){
-    html{
+
+@media (max-width:400px) {
+    html {
         font-size: 60%;
     }
 }
 
-@media (max-width:370px){
-    html{
+@media (max-width:370px) {
+    html {
         font-size: 45%;
     }
 }
 
-@media (max-width:290px){
-    html{
+@media (max-width:290px) {
+    html {
         font-size: 40%;
     }
 }
 
-@media (min-width:1800px){
-    html{
+@media (min-width:1800px) {
+    html {
         font-size: 80%;
     }
 }
-@media (min-width:2300px){
-    html{
+
+@media (min-width:2300px) {
+    html {
         font-size: 100%;
     }
 }
-@media (min-width:3200px){
-    html{
+
+@media (min-width:3200px) {
+    html {
         font-size: 130%;
     }
 }
