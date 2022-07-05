@@ -558,6 +558,14 @@ footer a:hover {
         background-color: antiquewhite;
         color: white;
     }
+    .submit-btn:hover {
+        background-color: white;
+    }
+    
+    .submit-btn:active {
+        background-color: orange;
+        color: black;
+    }
 
     .container {
         width: 90vw;
