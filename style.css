@@ -497,16 +497,7 @@ footer a:hover {
 }
 
 
-@media (max-width:1500px) and (orientation:portrait){
-    .navbar__menu__item a:hover {
-        background-color: black;
-        color: orange;
-    }
-    .navbar__menu__item a:active{
-        background-color: antiquewhite;
-        color: white;
-    }
-}
+
 @media(max-width:1200px) {
     .intro {
         height: fit-content;
